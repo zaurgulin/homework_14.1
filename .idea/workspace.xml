@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5225ebc-2ce4-4162-85da-bae161e7f0e6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/homework_14.1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_classes.py" afterDir="false" />
+    <list default="true" id="f5225ebc-2ce4-4162-85da-bae161e7f0e6" name="Changes" comment="homework_14.1 закончена">
+      <change beforePath="$PROJECT_DIR$/.flake8" beforeDir="false" afterPath="$PROJECT_DIR$/.flake8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_classes.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +38,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python tests.Python tests for test_classes.test_category_initialization.executor": "Run",
+    "Python tests.Python tests for test_classes.test_class_attributes_initialization.executor": "Run",
     "Python tests.Python tests for test_classes.test_product_initialization.executor": "Run",
     "Python tests.Python tests for test_classess.test_category_initialization.executor": "Run",
     "Python tests.Python tests for test_classess.test_class_attributes_initialization.executor": "Run",
@@ -59,7 +54,7 @@
       <recent name="C:\Users\Zeuz\PycharmProjects\feature\homework_14.1\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_classes.test_category_initialization">
+  <component name="RunManager" selected="Python.main (1)">
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="homework_14.1" />
       <option name="ENV_FILES" value="" />
@@ -119,6 +114,21 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_classes.test_class_attributes_initialization" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="homework_14.1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_classes.test_class_attributes_initialization&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test_classes.test_product_initialization" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="homework_14.1" />
       <option name="ENV_FILES" value="" />
@@ -134,28 +144,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for tests.test_classes.test_category_initialization" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="homework_14.1" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.test_classes.test_category_initialization&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python tests.Python tests for test_classes.test_class_attributes_initialization" />
         <item itemvalue="Python tests.Python tests for test_classes.test_category_initialization" />
         <item itemvalue="Python tests.Python tests for test_classes.test_product_initialization" />
-        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python tests.Python tests for tests.test_classes.test_category_initialization" />
       </list>
     </recent_temporary>
   </component>
@@ -175,6 +170,27 @@
       <option name="presentableId" value="Default" />
       <updated>1752477786766</updated>
     </task>
+    <task id="LOCAL-00001" summary="homework_14.1 закончена">
+      <option name="closed" value="true" />
+      <created>1752941805168</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1752941805168</updated>
+    </task>
+    <task id="LOCAL-00002" summary="homework_14.1 закончена">
+      <option name="closed" value="true" />
+      <created>1752941831184</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1752941831184</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="homework_14.1 закончена" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework_14.1 закончена" />
   </component>
 </project>

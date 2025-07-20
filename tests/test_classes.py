@@ -21,6 +21,7 @@ def test_category_initialization(category):
      assert isinstance(category.products, list)
      assert len(category.products) == 0
 
-    # def test_class_attributes_initialization():
-    #     assert Category.category_count == 0
-    #     assert Category.product_count == 0
+# def test_class_attributes_initialization():
+#      assert Category.category_count == 0
+#      assert Category.category_count == 1
+#      assert Category.product_count == 0

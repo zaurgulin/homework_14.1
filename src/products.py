@@ -21,7 +21,7 @@ class Product:
         product_list_1 = self.quantity * self.price
         product_list_2 = other.price * other.quantity
         total_amount = product_list_1 + product_list_2
-        return f"{total_amount}"
+        return total_amount
 
     @classmethod
     def new_product(cls, product):

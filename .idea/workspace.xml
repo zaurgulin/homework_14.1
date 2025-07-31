@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5225ebc-2ce4-4162-85da-bae161e7f0e6" name="Changes" comment="homework_14.2 закончена">
-      <change afterPath="$PROJECT_DIR$/15.1_main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.coverage" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage" afterDir="false" />
+    <list default="true" id="f5225ebc-2ce4-4162-85da-bae161e7f0e6" name="Changes" comment="homework_15.1 закончена">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/categories.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/categories.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/products.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/products.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_categories.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_categories.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_products.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_products.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,31 +46,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests for test_categories.test_category_products_property.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_categories.test_prod.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_classes.test_category_initialization.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_classes.test_class_attributes_initialization.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_classes.test_product_initialization.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_classess.test_category_initialization.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_classess.test_class_attributes_initialization.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_classess.test_product_initialization.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_products.test_category_products_property.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_products.test_prod.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_products.test_prod_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_reading_json.test_read_json.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_reading_json.test_read_json_file.executor&quot;: &quot;Run&quot;,
-    &quot;Python.14.1_main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.14.2_main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.15.1_main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.products.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;hw/homework__15.1&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for test_categories.test_category_products_property.executor": "Run",
+    "Python tests.Python tests for test_categories.test_prod.executor": "Run",
+    "Python tests.Python tests for test_classes.test_category_initialization.executor": "Run",
+    "Python tests.Python tests for test_classes.test_class_attributes_initialization.executor": "Run",
+    "Python tests.Python tests for test_classes.test_product_initialization.executor": "Run",
+    "Python tests.Python tests for test_classess.test_category_initialization.executor": "Run",
+    "Python tests.Python tests for test_classess.test_class_attributes_initialization.executor": "Run",
+    "Python tests.Python tests for test_classess.test_product_initialization.executor": "Run",
+    "Python tests.Python tests for test_products.test_category_products_property.executor": "Run",
+    "Python tests.Python tests for test_products.test_prod.executor": "Run",
+    "Python tests.Python tests for test_products.test_prod_1.executor": "Run",
+    "Python tests.Python tests for test_reading_json.test_read_json.executor": "Run",
+    "Python tests.Python tests for test_reading_json.test_read_json_file.executor": "Run",
+    "Python.14.1_main.executor": "Run",
+    "Python.14.2_main.executor": "Run",
+    "Python.15.1_main.executor": "Run",
+    "Python.main (1).executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.products.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "#3 on hw/homework__15.1"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Zeuz\PycharmProjects\feature\homework_14.1\data" />
@@ -233,7 +226,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753359590322</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="homework_15.1 закончена">
+      <option name="closed" value="true" />
+      <created>1753959985352</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1753959985352</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -250,6 +251,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="homework_14.1 закончена" />
     <MESSAGE value="homework_14.2 закончена" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework_14.2 закончена" />
+    <MESSAGE value="homework_15.1 закончена" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework_15.1 закончена" />
   </component>
 </project>

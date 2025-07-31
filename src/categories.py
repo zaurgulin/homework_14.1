@@ -21,6 +21,12 @@ class Category:
         self.category_count += 1
         self.product_count += len(products) if products else 0
 
+    def __str__(self):
+        """Метод, который возвращает строку в следующем виде:
+        *Название категории, количество продуктов: 200 шт.*"""
+        all_quantity = sum(product.quantity for product in self.__products)
+        return f"{self.name}, количество продуктов: {all_quantity} шт."
+
     def add_product(self, product: Product) -> None:
         """Метод для добавления продукта в атрибут products"""
         self.__products.append(product)

@@ -1,5 +1,3 @@
-import pytest
-
 from src.categories import Category
 from src.products import Product
 
@@ -15,6 +13,7 @@ def test_prod(fixture_product: Product, fixture_category: Category) -> None:
     # assert fixture_category.products[0].quantity == 5
     assert fixture_category.category_count == 1
     assert fixture_category.product_count == 3
+    assert fixture_category.__str__() == "Смартфоны, количество продуктов: 18 шт."
 
 
 def test_category_products_property(fixture_category: Category) -> None:

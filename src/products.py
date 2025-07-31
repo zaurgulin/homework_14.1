@@ -3,16 +3,25 @@ class Product:
 
     name: str
     description: str
-    __price: float
+    _price: float
     quantity: int
 
-    def __init__(self, name: str, description: str, price: float, quantity: int):
+    def __init__(self, name: str, description: str, _price: float, quantity: int):
         """Метод для инициализации экземпляра класса"""
 
         self.name = name
         self.description = description
-        self.__price = price
+        self.price = _price
         self.quantity = quantity
+
+    def __str__(self) -> str:
+        return f"{self.name}, {self.price} руб. Остаток: {self.quantity} шт."
+
+    def __add__(self, other):
+        product_list_1 = self.quantity * self.price
+        product_list_2 = other.price * other.quantity
+        total_amount = product_list_1 + product_list_2
+        return f"{total_amount}"
 
     @classmethod
     def new_product(cls, product):
@@ -25,15 +34,15 @@ class Product:
         return Product(name, description, price, quantity)
 
     @property
-    def price(self) -> float:
+    def _price(self) -> float:
         """Геттер для приватного атрибута price"""
-        return self.__price
+        return self._price
 
-    @price.setter
-    def price(self, new_price: float) -> None:
+    @_price.setter
+    def _price(self, new_price: float) -> None:
         """Сеттер для приватного атрибута price"""
         if new_price <= 0:
             print("Цена не должна быть нулевая или отрицательная")
         else:
-            self.__price = new_price
+            self.price = new_price
             return

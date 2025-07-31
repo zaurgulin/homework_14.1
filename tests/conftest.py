@@ -14,7 +14,7 @@ def fixture_product() -> Product:
 @pytest.fixture
 def fixture_product_1() -> Product:
     """Фикстура продукт"""
-    return Product("Xiaomi Redmi Note 11", "512GB, Черный цвет, 200MP камера", 0.0, 5)
+    return Product("Xiaomi Redmi Note 11", "512GB, Черный цвет, 200MP камера", 31000.0, 5)
 
 
 @pytest.fixture
